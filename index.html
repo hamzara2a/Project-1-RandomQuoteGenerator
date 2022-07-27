@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-title">
+        <h1> Random Quotes Generator</h1>
+    </div>
+
+    <div class="quote-container" id="quote-container">
+        <!--Quote-->
+        <div class="quote-text">
+            <span id="quote"></span>
+        </div>
+        <!--Author-->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!--Buttons-->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>    
+    <br><br>
+    <p> This generator makes an API call to a server which contains the random quotes.<br> I have used the async function for this project </p>
+   
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
